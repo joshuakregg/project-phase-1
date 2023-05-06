@@ -3,6 +3,7 @@
 //creates elements button and div
     //creates myButton
     let myButton = document.getElementById('my_button')
+    // creates myDiv element
     let myDiv = document.getElementById('my_div')
 
     myButton.addEventListener('click', () => {
