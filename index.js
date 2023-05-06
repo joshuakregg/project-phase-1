@@ -17,6 +17,7 @@
         fetch("https://www.balldontlie.io/api/v1/players")
         //parses the data into json
     .then(function (response){return response.json()})
+    //grabs the data for use later on 
     .then(function (data) {
 
         data.data.forEach(element => {
