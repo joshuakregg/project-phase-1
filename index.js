@@ -13,6 +13,7 @@
         //deletes p elements that are children of myDiv
         myDiv.replaceChildren()
 //fetches data, creates a list of basketball players, adds a hover event that displays team name and division and a click event that deletes the player clicked
+        //fetches data from the url
         fetch("https://www.balldontlie.io/api/v1/players")
     .then(function (response){return response.json()})
     .then(function (data) {
