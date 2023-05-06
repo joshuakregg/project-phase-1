@@ -1,7 +1,7 @@
 
 
-// 
-
+//creates elements button and div
+    //creates myButton
     let myButton = document.getElementById('my_button')
     let myDiv = document.getElementById('my_div')
 
