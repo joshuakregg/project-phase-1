@@ -6,6 +6,7 @@
     // creates myDiv element
     let myDiv = document.getElementById('my_div')
 // adds event listener to myButton which deletes all player names and replaces them with the same list.
+    // myButton gets eventListener
     myButton.addEventListener('click', () => {
         let paragraphs = document.getElementsByTagName("p")
         myDiv.replaceChildren()
