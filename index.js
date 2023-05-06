@@ -21,7 +21,9 @@
     .then(function (data) {
 //iterates over the array of objects within the data object and stores first name and last name in a p tag to be displayed on the page
         data.data.forEach(element => {
+            // creates element p
             const p = document.createElement('p')
+            //sets inner text of p to first name ands last name of player
             p.innerText = element.first_name + " " + element.last_name
             p.addEventListener("mouseover", () => {
                 p.title = element.team.full_name + "\n" + element.team.division
