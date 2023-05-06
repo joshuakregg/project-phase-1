@@ -32,13 +32,13 @@
             })
             //adds an event listener to the p tag that removes the names in the list
             p.addEventListener('click', () => p.remove())
-
+            //appends the new p element to myDiv 
             myDiv.appendChild(p)
         });
     })
     .catch((err) => console.log(err))
     })
-    
+//as the mouse moves around on the page the background color of the page changes
     document.body.addEventListener("mousemove", (e) => {
         document.body.style.backgroundColor = `rgba(${e.clientX * 5 % 255}, ${e.clientY}, ${e.clientX})`
 
