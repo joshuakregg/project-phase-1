@@ -10,6 +10,7 @@
     myButton.addEventListener('click', () => {
         // creates paragraphs element
         let paragraphs = document.getElementsByTagName("p")
+        //deletes p elements that are children of myDiv
         myDiv.replaceChildren()
         fetch("https://www.balldontlie.io/api/v1/players")
     .then(function (response){return response.json()})
