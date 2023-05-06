@@ -19,7 +19,7 @@
     .then(function (response){return response.json()})
     //grabs the data for use later on 
     .then(function (data) {
-
+//iterates over the array of objects within the data object and stores first name and last name in a p tag to be displayed on the page
         data.data.forEach(element => {
             const p = document.createElement('p')
             p.innerText = element.first_name + " " + element.last_name
