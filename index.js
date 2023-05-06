@@ -25,6 +25,7 @@
             const p = document.createElement('p')
             //sets inner text of p to first name ands last name of player
             p.innerText = element.first_name + " " + element.last_name
+            //as the mouse hovers over the name of the player the players team and division pops up
             p.addEventListener("mouseover", () => {
                 p.title = element.team.full_name + "\n" + element.team.division
             })
