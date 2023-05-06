@@ -8,6 +8,7 @@
 // adds event listener to myButton which deletes all player names and replaces them with the same list.
     // myButton gets eventListener
     myButton.addEventListener('click', () => {
+        // creates paragraphs element
         let paragraphs = document.getElementsByTagName("p")
         myDiv.replaceChildren()
         fetch("https://www.balldontlie.io/api/v1/players")
