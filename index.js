@@ -27,6 +27,7 @@
             p.innerText = element.first_name + " " + element.last_name
             //as the mouse hovers over the name of the player the players team and division pops up
             p.addEventListener("mouseover", () => {
+                //fills the p tags title that pops up with the team name and division
                 p.title = element.team.full_name + "\n" + element.team.division
             })
             p.addEventListener('click', () => p.remove())
