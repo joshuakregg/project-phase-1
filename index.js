@@ -40,6 +40,7 @@
     })
 //as the mouse moves around on the page the background color of the page changes
     document.body.addEventListener("mousemove", (e) => {
+        //dynamic background color
         document.body.style.backgroundColor = `rgba(${e.clientX * 5 % 255}, ${e.clientY}, ${e.clientX})`
 
     })
