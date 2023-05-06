@@ -16,9 +16,10 @@ this project meets the requirments of the phase 1 project in a few ways:
         * one that deletes the players from the page
     * one mouse hover event that displays the team and division of the player
     * one mouse move event that changes the background color of the page as the mouse moves around
+* it itterates over the data using a for each loop
 
     here is a video walkthrough of the project
     https://youtu.be/93hAMJxWzUY
-    
+
 
 
