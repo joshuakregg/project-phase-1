@@ -30,6 +30,7 @@
                 //fills the p tags title that pops up with the team name and division
                 p.title = element.team.full_name + "\n" + element.team.division
             })
+            //adds an event listener to the p tag that removes the names in the list
             p.addEventListener('click', () => p.remove())
 
             myDiv.appendChild(p)
