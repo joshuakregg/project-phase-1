@@ -8,5 +8,5 @@
   #my_div p:hover {
     background-color: lightgray;
     color: white;
-    cursor: pointer; /* optional, changes the mouse cursor to a hand to indicate clickability */
+    cursor: pointer; 
   }
