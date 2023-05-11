@@ -10,3 +10,13 @@
     color: white;
     cursor: pointer; 
   }
+
+  #my_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border: 1px solid black;
+  }
